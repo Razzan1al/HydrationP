@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E34DB68A2CC4DA0B00D9944D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34DB6712CC4DA0A00D9944D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34DB6782CC4DA0A00D9944D;
+			remoteInfo = HydrationP;
+		};
+		E34DB6942CC4DA0B00D9944D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34DB6712CC4DA0A00D9944D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34DB6782CC4DA0A00D9944D;
+			remoteInfo = HydrationP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E34DB6792CC4DA0A00D9944D /* HydrationP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydrationP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34DB6892CC4DA0B00D9944D /* HydrationPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34DB6932CC4DA0B00D9944D /* HydrationPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrationPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E34DB67B2CC4DA0A00D9944D /* HydrationP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationP;
+			sourceTree = "<group>";
+		};
+		E34DB68C2CC4DA0B00D9944D /* HydrationPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationPTests;
+			sourceTree = "<group>";
+		};
+		E34DB6962CC4DA0B00D9944D /* HydrationPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HydrationPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34DB6762CC4DA0A00D9944D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB6862CC4DA0B00D9944D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB6902CC4DA0B00D9944D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E34DB6702CC4DA0A00D9944D = {
+			isa = PBXGroup;
+			children = (
+				E34DB67B2CC4DA0A00D9944D /* HydrationP */,
+				E34DB68C2CC4DA0B00D9944D /* HydrationPTests */,
+				E34DB6962CC4DA0B00D9944D /* HydrationPUITests */,
+				E34DB67A2CC4DA0A00D9944D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E34DB67A2CC4DA0A00D9944D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34DB6792CC4DA0A00D9944D /* HydrationP.app */,
+				E34DB6892CC4DA0B00D9944D /* HydrationPTests.xctest */,
+				E34DB6932CC4DA0B00D9944D /* HydrationPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34DB6782CC4DA0A00D9944D /* HydrationP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34DB69D2CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationP" */;
+			buildPhases = (
+				E34DB6752CC4DA0A00D9944D /* Sources */,
+				E34DB6762CC4DA0A00D9944D /* Frameworks */,
+				E34DB6772CC4DA0A00D9944D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E34DB67B2CC4DA0A00D9944D /* HydrationP */,
+			);
+			name = HydrationP;
+			packageProductDependencies = (
+			);
+			productName = HydrationP;
+			productReference = E34DB6792CC4DA0A00D9944D /* HydrationP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E34DB6882CC4DA0B00D9944D /* HydrationPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34DB6A02CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationPTests" */;
+			buildPhases = (
+				E34DB6852CC4DA0B00D9944D /* Sources */,
+				E34DB6862CC4DA0B00D9944D /* Frameworks */,
+				E34DB6872CC4DA0B00D9944D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34DB68B2CC4DA0B00D9944D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E34DB68C2CC4DA0B00D9944D /* HydrationPTests */,
+			);
+			name = HydrationPTests;
+			packageProductDependencies = (
+			);
+			productName = HydrationPTests;
+			productReference = E34DB6892CC4DA0B00D9944D /* HydrationPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E34DB6922CC4DA0B00D9944D /* HydrationPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34DB6A32CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationPUITests" */;
+			buildPhases = (
+				E34DB68F2CC4DA0B00D9944D /* Sources */,
+				E34DB6902CC4DA0B00D9944D /* Frameworks */,
+				E34DB6912CC4DA0B00D9944D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34DB6952CC4DA0B00D9944D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E34DB6962CC4DA0B00D9944D /* HydrationPUITests */,
+			);
+			name = HydrationPUITests;
+			packageProductDependencies = (
+			);
+			productName = HydrationPUITests;
+			productReference = E34DB6932CC4DA0B00D9944D /* HydrationPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34DB6712CC4DA0A00D9944D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E34DB6782CC4DA0A00D9944D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E34DB6882CC4DA0B00D9944D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E34DB6782CC4DA0A00D9944D;
+					};
+					E34DB6922CC4DA0B00D9944D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E34DB6782CC4DA0A00D9944D;
+					};
+				};
+			};
+			buildConfigurationList = E34DB6742CC4DA0A00D9944D /* Build configuration list for PBXProject "HydrationP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E34DB6702CC4DA0A00D9944D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E34DB67A2CC4DA0A00D9944D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34DB6782CC4DA0A00D9944D /* HydrationP */,
+				E34DB6882CC4DA0B00D9944D /* HydrationPTests */,
+				E34DB6922CC4DA0B00D9944D /* HydrationPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34DB6772CC4DA0A00D9944D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB6872CC4DA0B00D9944D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB6912CC4DA0B00D9944D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34DB6752CC4DA0A00D9944D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB6852CC4DA0B00D9944D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34DB68F2CC4DA0B00D9944D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E34DB68B2CC4DA0B00D9944D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34DB6782CC4DA0A00D9944D /* HydrationP */;
+			targetProxy = E34DB68A2CC4DA0B00D9944D /* PBXContainerItemProxy */;
+		};
+		E34DB6952CC4DA0B00D9944D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34DB6782CC4DA0A00D9944D /* HydrationP */;
+			targetProxy = E34DB6942CC4DA0B00D9944D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E34DB69B2CC4DA0B00D9944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E34DB69C2CC4DA0B00D9944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34DB69E2CC4DA0B00D9944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E34DB69F2CC4DA0B00D9944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydrationP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E34DB6A12CC4DA0B00D9944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationP";
+			};
+			name = Debug;
+		};
+		E34DB6A22CC4DA0B00D9944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydrationP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydrationP";
+			};
+			name = Release;
+		};
+		E34DB6A42CC4DA0B00D9944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationP;
+			};
+			name = Debug;
+		};
+		E34DB6A52CC4DA0B00D9944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razann.HydrationPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydrationP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34DB6742CC4DA0A00D9944D /* Build configuration list for PBXProject "HydrationP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34DB69B2CC4DA0B00D9944D /* Debug */,
+				E34DB69C2CC4DA0B00D9944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34DB69D2CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34DB69E2CC4DA0B00D9944D /* Debug */,
+				E34DB69F2CC4DA0B00D9944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34DB6A02CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34DB6A12CC4DA0B00D9944D /* Debug */,
+				E34DB6A22CC4DA0B00D9944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34DB6A32CC4DA0B00D9944D /* Build configuration list for PBXNativeTarget "HydrationPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34DB6A42CC4DA0B00D9944D /* Debug */,
+				E34DB6A52CC4DA0B00D9944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E34DB6712CC4DA0A00D9944D /* Project object */;
+}
